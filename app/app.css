@@ -1,0 +1,102 @@
+/*-- ini header --*/
+.logo {
+    width: 120px;
+}
+
+header .social a svg {
+    height: 36px;
+}
+
+header .social ul li {
+    height: 36px;
+    width: 36px;
+}
+/*-- fim header --*/
+
+/*-- ini bg --*/
+.bg-green {
+    background-color: rgb(117 165 65 / 10%);
+}
+.bg-green-dark {
+    background-color: #75A541;
+}
+.green {
+    color:#75A541;
+}
+
+
+/**-- fim bg --*/
+
+/*-- ini main --*/
+.__tr-first-banner {
+    background: rgb(47,189,189);
+    background: linear-gradient(180deg, rgba(47,189,189,1) 0%, rgba(12,113,136,1) 100%);
+    height: 600px;
+}
+.__tr-first-banner:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    bottom: -8px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 155 20'%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='none' d='M0 0h155v20H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3Cg fill='%232fbdbd' clip-path='url(%23a)' data-name='RepetiÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o de grade 7'%3E%3Cpath d='M90 60h12l20-60h-12Z' data-name='Caminho 12448'/%3E%3Cpath d='M60 60h12L92 0H80Z' data-name='Caminho 12449'/%3E%3Cpath d='M30 60h12L62 0H50Z' data-name='Caminho 12450'/%3E%3Cpath d='M0 60h12L32 0H20Z' data-name='Caminho 12451'/%3E%3Cg%3E%3Cpath d='M232 60h12l20-60h-12Z' data-name='Caminho 12448'/%3E%3Cpath d='M202 60h12l20-60h-12Z' data-name='Caminho 12449'/%3E%3Cpath d='M172 60h12l20-60h-12Z' data-name='Caminho 12450'/%3E%3Cpath d='M142 60h12l20-60h-12Z' data-name='Caminho 12451'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+/*-- fim main --/
+
+/*-- ini como funciona --*/
+
+.__ts-slider .slick-slide {
+    height: auto;
+}
+
+.__ts-slider  ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.__ts-slider ul.slick-dots li {
+    font-size: 0;
+}
+
+.__ts-slider ul.slick-dots li button {
+    border: 1px solid #616A71;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
+.__ts-slider ul.slick-dots li.slick-active button {
+    border: 1px solid #109AEE;
+    background-color: #109AEE;
+}
+
+/*-- fim  como funciona --*/
+
+/*-- ini  nossas vantagens --*/
+
+.benefits {
+    height: 190px;
+}
+.benefits-tabs.active {
+    display: block;
+}
+.benefits-tabs {
+    display: none;
+}
+/*-- fim  nossas vantagens --*/
+
+/*-- ini perfis --*/
+.__ts-profile {
+    background: rgb(47,189,189);
+    background: linear-gradient(180deg, rgba(47,189,189,1) 0%, rgba(12,113,136,1) 100%);
+}
+.__ts-profile-shelf {
+    height: 180px;
+}
+.__ts-profile form button a {
+    background-color: #2FBDBD;
+}
+/*-- fim perfis --*/
